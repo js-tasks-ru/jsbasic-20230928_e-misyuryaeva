@@ -13,7 +13,13 @@
 
   <script src="./index.js"></script>
   <script>
-    hideSelf();
+    function hideSelf() { 
+    let buttonElement =  document.querySelector('.hide-self-button');
+    buttonElement.addEventListener('click', ()=>{
+     	  buttonElement.hidden = true;		 
+	  });
+   }
+   
   </script>
 </body>
 
