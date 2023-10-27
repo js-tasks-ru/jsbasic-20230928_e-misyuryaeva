@@ -1,5 +1,4 @@
 function initCarousel() {
-
    let carouselElement = document.querySelector('.carousel__inner');
    let buttonRight =  document.querySelector('.carousel__arrow_right');
    let buttonLeft =  document.querySelector('.carousel__arrow_left');
@@ -33,5 +32,5 @@ function initCarousel() {
 		    buttonRight.style.display =	'';		  
 		 };
     };
-	
+
 }
